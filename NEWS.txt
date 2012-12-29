@@ -1,0 +1,15 @@
+
+Changelog for checksum
+======================
+
+0.1 (2012-12-29)
+----------------
+
+* Initial release
+* Strategies include algorithms for following checksum algorithms:
+  - Factorial 12
+  - Factorial 137
+  - Luhn modulo 10
+  - Modulo 31
+  - Modulo 97-10
+  - Verhoeff
