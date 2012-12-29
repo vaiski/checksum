@@ -29,7 +29,7 @@ class Mod9710Test(unittest.TestCase):
         self.assertTrue(self.cs.is_valid(whole))
 
     def test_checksum_iban(self):
-        ''' Calculate a checksum for a belgian example IBAN. '''
+        ''' Calculate a checksum for a belgian and finnish example IBANs. '''
 
         self.cs.body = '510007547061BE'
         self.assertEquals(self.cs.checksum(), '62')

@@ -26,17 +26,15 @@ setup(name='checksum',
     ],
     keywords='',
     author='Eemil V\xc3\xa4is\xc3\xa4nen',
-    author_email='eemil@waisanen.net',
-    url='http://waisanen.net',
+    author_email='eemil.vaisanen@gmail.com',
+    url='https://github.com/vaiski/checksum',
     license='MIT',
-    packages=find_packages('src'),
+    packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
     install_requires=install_requires,
     test_suite="checksum.test.test_all",
     entry_points={
-        # 'console_scripts':
-        #     ['checksum=checksum:main']
     }
 )
